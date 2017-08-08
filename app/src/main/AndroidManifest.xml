@@ -36,6 +36,8 @@
         <activity android:name=".activities.UserActivity"/>
         <activity android:name=".activities.CallActivity"/>
         <activity android:name=".activities.DetaliesListActivity"/>
+        <activity android:name=".activities.CaptureSignatureActivity"/>
+        <activity android:name=".CaptureSignature"/>
     </application>
 
 </manifest>

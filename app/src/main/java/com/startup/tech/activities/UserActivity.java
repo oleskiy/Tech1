@@ -113,7 +113,7 @@ public class UserActivity extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(UserActivity.this,DetaliesListActivity.class);
+                Intent intent = new Intent(UserActivity.this,CaptureSignatureActivity.class);
                 //intent.putExtra("call", (Parcelable) calls.get(position));
                 startActivity(intent);
             }
